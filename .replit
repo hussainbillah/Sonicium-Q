@@ -1,0 +1,7 @@
+modules = ["nodejs-23"]
+run = "Frist"
+[nix]
+channel = "stable-24_05"
+
+[deployment]
+run = ["sh", "-c", "Frist"]
