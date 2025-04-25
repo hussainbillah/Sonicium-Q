@@ -1,3 +1,7 @@
+entrypoint = "server.js"
+run = "node server.js"
+
+[deployment]
 run = "node server.js"
 
 [[ports]]
