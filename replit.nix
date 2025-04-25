@@ -1,4 +1,4 @@
-modules = ["nodejs-18_x", "nodejs-20"]
+modules = ["nodejs-18_x"]
 
 [env]
 PORT = "5000"
