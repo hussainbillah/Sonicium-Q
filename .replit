@@ -4,7 +4,7 @@ run = "Frist"
 channel = "stable-24_05"
 
 [deployment]
-run = ["sh", "-c", "Frist"]
+run = "node server.js"
 
 [[ports]]
 localPort = 5000
