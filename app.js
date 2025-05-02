@@ -16,3 +16,4 @@ app.get('/', (req, res) => {
 
 module.exports = app;
 app.use('/api/auth', require('./routes/authRoutes'));
+app.use('/api/user', require('./routes/userRoutes'));
